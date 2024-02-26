@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RotoDraw3D - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/RotoDraw3D.res" /d "_DEBUG" "C:\CProjects\RotoDraw3D\RotoDraw3D.rc"" 
+Creating temporary file "D:\DOCUME~1\jeff\LOCALS~1\Temp\RSP1D9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/RotoDraw3D.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CProjects\RotoDraw3D\3dpic.cpp"
+"C:\CProjects\RotoDraw3D\BuyMeDlg.cpp"
+"C:\CProjects\RotoDraw3D\camera.cpp"
+"C:\CProjects\RotoDraw3D\CameraMoveRotationDialog.cpp"
+"C:\CProjects\RotoDraw3D\CameraMoveRotationVars.cpp"
+"C:\CProjects\RotoDraw3D\ClipTexture.cpp"
+"C:\CProjects\RotoDraw3D\color.cpp"
+"C:\CProjects\RotoDraw3D\CopyPosRotScaleCtrl.cpp"
+"C:\CProjects\RotoDraw3D\cubedx.cpp"
+"C:\CProjects\RotoDraw3D\D3DXFile.cpp"
+"C:\CProjects\RotoDraw3D\data3d.cpp"
+"C:\CProjects\RotoDraw3D\Geometry.cpp"
+"C:\CProjects\RotoDraw3D\grid.cpp"
+"C:\CProjects\RotoDraw3D\hdxpaletteio.cpp"
+"C:\CProjects\RotoDraw3D\hobfileio.cpp"
+"C:\CProjects\RotoDraw3D\hobread.cpp"
+"C:\CProjects\RotoDraw3D\hobwrite.cpp"
+"C:\CProjects\RotoDraw3D\keytoheaven.cpp"
+"C:\CProjects\RotoDraw3D\MaterialDlg.cpp"
+"C:\CProjects\RotoDraw3D\MaterialDlgHelp.cpp"
+"C:\CProjects\RotoDraw3D\PicHelpDlg.cpp"
+"C:\CProjects\RotoDraw3D\RotoDraw3D.cpp"
+"C:\CProjects\RotoDraw3D\RotoDraw3DDlg.cpp"
+"C:\CProjects\RotoDraw3D\RotoSplash.cpp"
+"C:\CProjects\RotoDraw3D\sceneobjects.cpp"
+"C:\CProjects\RotoDraw3D\scroll.cpp"
+"C:\CProjects\RotoDraw3D\SetObjectSizeDlg.cpp"
+"C:\CProjects\RotoDraw3D\Tetra.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\jeff\LOCALS~1\Temp\RSP1D9.tmp" 
+Creating temporary file "D:\DOCUME~1\jeff\LOCALS~1\Temp\RSP1DA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/RotoDraw3D.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CProjects\RotoDraw3D\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\jeff\LOCALS~1\Temp\RSP1DA.tmp" 
+Creating temporary file "D:\DOCUME~1\jeff\LOCALS~1\Temp\RSP1DB.tmp" with contents
+[
+d3d9.lib d3drm.lib ddraw.lib dxguid.lib d3dxof.lib kernel32.lib user32.lib gdi32.lib winspool.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/RotoDraw3D.pdb" /debug /machine:I386 /out:"Debug/RotoDraw3D.exe" /pdbtype:sept 
+.\Debug\3dpic.obj
+.\Debug\BuyMeDlg.obj
+.\Debug\camera.obj
+.\Debug\CameraMoveRotationDialog.obj
+.\Debug\CameraMoveRotationVars.obj
+.\Debug\ClipTexture.obj
+.\Debug\color.obj
+.\Debug\CopyPosRotScaleCtrl.obj
+.\Debug\cubedx.obj
+.\Debug\D3DXFile.obj
+.\Debug\data3d.obj
+.\Debug\Geometry.obj
+.\Debug\grid.obj
+.\Debug\hdxpaletteio.obj
+.\Debug\hobfileio.obj
+.\Debug\hobread.obj
+.\Debug\hobwrite.obj
+.\Debug\keytoheaven.obj
+.\Debug\MaterialDlg.obj
+.\Debug\MaterialDlgHelp.obj
+.\Debug\PicHelpDlg.obj
+.\Debug\RotoDraw3D.obj
+.\Debug\RotoDraw3DDlg.obj
+.\Debug\RotoSplash.obj
+.\Debug\sceneobjects.obj
+.\Debug\scroll.obj
+.\Debug\SetObjectSizeDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Tetra.obj
+.\Debug\RotoDraw3D.res
+]
+Creating command line "link.exe @D:\DOCUME~1\jeff\LOCALS~1\Temp\RSP1DB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+3dpic.cpp
+BuyMeDlg.cpp
+camera.cpp
+CameraMoveRotationDialog.cpp
+CameraMoveRotationVars.cpp
+ClipTexture.cpp
+color.cpp
+CopyPosRotScaleCtrl.cpp
+cubedx.cpp
+D3DXFile.cpp
+data3d.cpp
+Geometry.cpp
+grid.cpp
+hdxpaletteio.cpp
+hobfileio.cpp
+hobread.cpp
+hobwrite.cpp
+keytoheaven.cpp
+MaterialDlg.cpp
+MaterialDlgHelp.cpp
+PicHelpDlg.cpp
+RotoDraw3D.cpp
+RotoDraw3DDlg.cpp
+RotoSplash.cpp
+sceneobjects.cpp
+scroll.cpp
+SetObjectSizeDlg.cpp
+Tetra.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+RotoDraw3D.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

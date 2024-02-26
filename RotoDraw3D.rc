@@ -1,0 +1,488 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\RotoDraw3D.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RotoDraw3D.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About RotoDraw3D"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "RotoDraw3D Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 1998-2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ROTODRAW3D_DIALOG DIALOGEX 0, 0, 352, 257
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "RotoDraw3D"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,6,220,35,14
+    PUSHBUTTON      "Cancel",IDCANCEL,6,240,35,14
+    LTEXT           "Draw a line which is one half of the edge of the object. When you lift the mouse a message box will ask you if you wish to contine the line or draw the object. You may draw free hand or point by point.",IDC_STATIC,7,7,93,83,SS_SUNKEN | WS_BORDER
+    PUSHBUTTON      "Clear",IDC_CLEAR_BUTTON,5,170,25,14
+    PUSHBUTTON      "Save",IDC_SAVE_BUTTON,50,188,50,14
+    CONTROL         "",IDC_CLIP_STATIC,"Static",SS_SIMPLE | WS_BORDER | WS_GROUP,7,128,19,15
+    PUSHBUTTON      "1) Set Colors",IDC_SET_COLORS_BUTTON,50,100,50,14
+    PUSHBUTTON      "3) Set Points",IDC_SET_POINTS_BUTTON,50,153,50,14
+    CONTROL         "Top or Left",IDC_TOP_OR_LEFT_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,62,228,51,10
+    CONTROL         "Bottom or Right",IDC_BOTTOM_OR_RIGHT_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,115,228,65,10
+    CONTROL         "First to Last",IDC_FIRST_TO_LAST_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,182,228,52,10
+    EDITTEXT        IDC_EDIT1,236,227,40,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR1,281,230,62,11
+    LTEXT           "Rotation",IDC_STATIC,240,218,29,8
+    LTEXT           "Point:   0.300000",IDC_POINT_SPACE_STATIC,284,218,55,8
+    LTEXT           "2) Faces",IDC_STATIC,50,117,28,8
+    CONTROL         "Exterior",IDC_EXTERIOR_FACES_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,128,39,10
+    CONTROL         "Interior",IDC_INTERIOR_FACES_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,140,37,10
+    LTEXT           "Point\nColor:",IDC_STATIC,7,105,20,16
+    CONTROL         "Y Axis Rotation",IDC_AXIS_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,62,240,64,10
+    PUSHBUTTON      "Help",IDC_ROTO_HELP_BUTTON,5,192,26,14
+    PUSHBUTTON      "4) Size Object",IDC_SIZE_OBJECT_BUTTON,50,171,50,14
+    LTEXT           "",IDC_MOUSE_POS_STATIC,170,245,172,8
+END
+
+VIEWERCHOOSECOLOR DIALOGEX 2, 0, 300, 279
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Object Color"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,155,228,29,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,155,245,29,14,WS_GROUP
+    PUSHBUTTON      "&Help",IDC_MAT_DLG_HELP_BUTTON,155,261,29,14,WS_GROUP
+    CONTROL         "",COLOR_MAPPIXELS,"Static",SS_SIMPLE | WS_GROUP,150,15,125,116
+    CONTROL         "",COLOR_LUMSCROLL,"Static",SS_SIMPLE | WS_GROUP,280,15,8,116
+    CONTROL         "",COLOR_CURRENT,"Static",SS_SIMPLE | SS_SUNKEN,152,135,40,14
+    RTEXT           "Color",730,152,150,20,9
+    LTEXT           "|S&olid",731,172,150,20,9
+    RTEXT           "Hu&e:",723,194,135,20,9
+    EDITTEXT        COLOR_HUE,216,133,18,12,WS_GROUP
+    RTEXT           "&Sat:",724,194,149,20,9
+    EDITTEXT        COLOR_SAT,216,147,18,12,WS_GROUP
+    RTEXT           "&Lum:",725,194,163,20,9
+    EDITTEXT        COLOR_LUM,216,161,18,12,WS_GROUP
+    RTEXT           "&Red:",726,243,135,24,9
+    EDITTEXT        COLOR_RED,269,133,18,12,WS_GROUP
+    RTEXT           "&Green:",727,243,149,24,9
+    EDITTEXT        COLOR_GREEN,269,147,18,12,WS_GROUP
+    RTEXT           "Bl&ue:",728,243,163,24,9
+    EDITTEXT        COLOR_BLUE,269,161,18,12,WS_GROUP
+    PUSHBUTTON      "&Add to Custom Colors",COLOR_ADD,189,176,104,10,WS_GROUP
+    RTEXT           "Al&pha:",711,140,163,20,9
+    EDITTEXT        714,167,162,18,12,WS_GROUP
+    LISTBOX         IDC_MATERIAL_LISTDLG,6,155,53,124,WS_HSCROLL | WS_TABSTOP
+    LTEXT           "Alpha",IDC_STATIC,66,162,19,8
+    LTEXT           "Power",IDC_STATIC,66,170,21,8
+    LTEXT           "Spec Red",IDC_STATIC,66,178,33,8
+    LTEXT           "Spec Green",IDC_STATIC,66,186,39,8
+    LTEXT           "Spec Blue",IDC_STATIC,66,194,34,8
+    LTEXT           "Emm Red",IDC_STATIC,66,202,32,8
+    LTEXT           "Emm Green",IDC_STATIC,66,210,38,8
+    LTEXT           "Emm Blue",IDC_STATIC,66,218,32,8
+    LTEXT           "FileName",IDC_STATIC,66,267,30,8
+    SCROLLBAR       IDC_SCROLLBAR1,111,189,11,86,SBS_VERT
+    SCROLLBAR       IDC_SCROLLBAR2,135,189,12,86,SBS_VERT
+    LTEXT           "Name",IDC_STATIC,66,154,20,8
+    PUSHBUTTON      "Tex ...",IDC_TEXTURE_FILENAME_BUTTON,63,254,21,11
+    CONTROL         "",IDC_D3DMATERIAL_DISPLAY,"Static",SS_ETCHEDFRAME,190,188,103,89,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    LTEXT           "Number of Materials",IDC_STATIC,69,52,64,8
+    EDITTEXT        IDC_NUM_MATERIALS_EDIT,73,60,40,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR8,5,111,137,11
+    SCROLLBAR       IDC_SCROLLBAR9,5,124,137,11
+    SCROLLBAR       IDC_SCROLLBAR10,5,137,137,11
+    PUSHBUTTON      "Create Palette",IDC_CREATE_BUTTON,11,22,53,12
+    PUSHBUTTON      "Delete Material",IDC_ADD_DELETEMATERIAL_BUTTON,11,67,53,12
+    LTEXT           "Palette File Name",IDC_STATIC,6,2,56,8
+    EDITTEXT        IDC_PALETTE_FILE_NAME_EDIT,66,0,231,14,ES_AUTOHSCROLL
+    LTEXT           "Palette Buttons",IDC_STATIC,6,12,55,8
+    LTEXT           "Curent Material",IDC_STATIC,15,82,48,8
+    EDITTEXT        IDC_CURRENT_MATERIAL_EDIT,100,93,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add Material",IDC_ADD_MATERIAL_BUTTON,11,37,53,12
+    PUSHBUTTON      "Set Material",IDC_SET_MATERIAL_BUTTON,11,52,53,12
+    LTEXT           "Power     Others",IDC_STATIC,103,177,52,8
+    LTEXT           "Amb Red",IDC_STATIC,65,229,30,8
+    LTEXT           "Amb Green",IDC_STATIC,65,237,36,8
+    LTEXT           "Amb Blue",IDC_STATIC,65,245,31,8
+    SCROLLBAR       IDC_CURRENT_MATERIAL_SCROLL,6,94,91,11
+    PUSHBUTTON      "<< name",IDC_NAME_SET_BUTTON,92,153,36,10
+    EDITTEXT        IDC_NAME_SET_EDIT,90,164,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Clear",IDC_CLEAR_TEXTURE_FILENAME_BUTTON,87,254,21,11
+    PUSHBUTTON      "Open Palette",IDC_OPEN_PALETTE_BUTTON,69,22,50,12
+    PUSHBUTTON      "Save Palette",IDC_SAVE_PALETTE_BUTTON2,69,37,50,12
+END
+
+IDD_POINTSPACE_DIALOG DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Point Spacing"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,36,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,96,74,50,14
+    SCROLLBAR       IDC_PT_SEP_SCROLLBAR,12,39,167,11
+    LTEXT           "Point Separation",IDC_STATIC,12,17,53,8
+    LTEXT           "0.030000",IDC_PT_SEP_VALUE_STATIC,15,26,31,8
+END
+
+IDD_GROUP_SET_CTRL DIALOG 0, 0, 231, 89
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,169,23,50,14
+    PUSHBUTTON      "Group 1",IDC_GROUPBUTTON1,7,7,50,14
+    PUSHBUTTON      "Group 2",IDC_GROUPBUTTON2,7,23,50,14
+    EDITTEXT        IDC_EDIT1,64,7,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,64,23,40,14,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR1,9,45,169,11
+    LTEXT           "Static",IDC_STATIC,186,45,19,8
+    EDITTEXT        IDC_EDIT3,8,60,197,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set Face",IDC_SET_FACE_BUTTON,113,7,50,14
+    PUSHBUTTON      "Choose Faces",IDC_CHOOSE_FACES_BUTTON,113,23,50,14
+    PUSHBUTTON      "Do Auto Face",IDC_AUTO_FACE_BUTTON,169,7,50,14
+END
+
+IDD_COPY_POS_ROT_SCALE_DIALOG1 DIALOG 0, 0, 229, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Set",IDOK,172,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,172,26,50,14
+    PUSHBUTTON      "X",IDC_X_BUTTON,35,7,22,14
+    PUSHBUTTON      "Y",IDC_Y_BUTTON,62,7,22,14
+    PUSHBUTTON      "X",IDC_X_BUTTON2,35,25,22,14
+    PUSHBUTTON      "Y",IDC_Y_BUTTON2,61,25,22,14
+    LTEXT           "minus",IDC_STATIC,91,11,19,8
+    LTEXT           "plus",IDC_STATIC,91,28,14,8
+    LTEXT           "Size",IDC_STATIC,11,11,14,8
+    PUSHBUTTON      "Copy Drag On",IDC_COPY_DRAG_BUTTON,35,43,50,14
+    PUSHBUTTON      "Copy Drag Off",IDC_COPY_DRAG_OFF_BUTTON,92,43,50,14
+    CONTROL         "Last To First",IDC_LAST_TO_FIRST_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,153,47,55,10
+END
+
+IDD_BUY_ME_DLG DIALOG 0, 0, 311, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Buy and this Message Box Disappears"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,254,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,254,24,50,14
+    LTEXT           "To Purchase RotoDraw 3D \nSend: $10.00 US \nTo: Jeff Kubitz\n3876 Swallow 147\nWest Valley City, Utah 84123. ",IDC_STATIC,13,33,96,44
+    LTEXT           "Purchase Key",IDC_STATIC,10,16,45,8
+    EDITTEXT        IDC_EDIT1,64,12,106,14,ES_AUTOHSCROLL
+    LTEXT           "You can also Pay with PayPal from our website. http://3ddirectxsoftware.com\n\nYou may not use the objects you create in any way unless you pay for RotoDraw3D\n\nAs soon as you payment clears I will email you the the disable code",IDC_STATIC,7,85,297,59
+END
+
+IDD_MATERIAL_HELP_DIALOG DIALOG 0, 0, 301, 250
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Material Creator Help"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,243,229,50,14
+    EDITTEXT        IDC_EDIT1,7,8,284,211,ES_MULTILINE | ES_AUTOVSCROLL | ES_OEMCONVERT | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER
+END
+
+IDD_PIC_HELP_DIALOG DIALOG 0, 0, 382, 180
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,352,7,23,14
+    CONTROL         "",IDC_PIC_STATIC,"Static",SS_SIMPLE | WS_GROUP,8,7,339,166
+END
+
+IDD_FINAL_SIZE_DIALOG DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Object Size"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Set",IDOK,129,7,50,14
+    PUSHBUTTON      "Close",IDCANCEL,129,24,50,14
+    LTEXT           "X                      Y                        Z",IDC_STATIC,12,53,119,8
+    EDITTEXT        IDC_EDIT1,7,65,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,59,65,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,111,65,40,14,ES_AUTOHSCROLL
+END
+
+IDD_CAMERA_MOVEMENT_VARS_CTRL_DIALOG DIALOG 0, 0, 213, 241
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Camera Rotation Movement Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,156,220,50,14
+    CONTROL         "",IDC_CAMERA_MOVE_WINDOW_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | WS_BORDER | WS_GROUP,7,7,199,182
+    LTEXT           "Camera Radius",IDC_CAMERA_RADIUS_STATIC,7,210,56,8
+    EDITTEXT        IDC_CAMERA_RADIUS_EDIT,68,207,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Camera Rotation",IDC_CAMERA_ROTATION_STATIC,7,225,54,8
+    EDITTEXT        IDC_CAMERA_ROTATION_EDIT,68,220,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Camera Position",IDC_CAMERA_POSITION_STATIC,7,193,198,8
+    PUSHBUTTON      "Help",IDC_CAM_MOVE_ROT_HELP_BUTTON,156,198,50,14
+    PUSHBUTTON      "Set",IDC_SET_CAM_SPHERE_BUTTON,114,213,33,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "RotoDraw3D MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "RotoDraw3D"
+            VALUE "LegalCopyright", "Copyright (C) 2003"
+            VALUE "OriginalFilename", "RotoDraw3D.EXE"
+            VALUE "ProductName", "RotoDraw3D Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_ROTODRAW3D_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_POINTSPACE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_GROUP_SET_CTRL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_COPY_POS_ROT_SCALE_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_BUY_ME_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_MATERIAL_HELP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_PIC_HELP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 375
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_FINAL_SIZE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_CAMERA_MOVEMENT_VARS_CTRL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\bitmap1.bmp"
+
+IDB_BITMAP2             BITMAP                  "res\\bitmap2.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CROSSHAIR1          CURSOR                  "res\\cursor1.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ROTODRAW3D_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About RotoDraw3D..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\RotoDraw3D.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

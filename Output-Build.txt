@@ -1,0 +1,154 @@
+﻿Rebuild started...
+1>------ Rebuild All started: Project: RotoDraw3D, Configuration: Debug Win32 ------
+1>StdAfx.cpp
+1>3dpic.cpp
+1>BuyMeDlg.cpp
+1>camera.cpp
+1>CameraMoveRotationDialog.cpp
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(535): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(535): error C2143: syntax error: missing ',' before '*'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(540): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(540): error C2143: syntax error: missing ',' before '*'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(484): error C2065: 'm': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(490): error C2065: 'm': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1516): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1517): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1518): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1519): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1521): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1534): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1535): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1536): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.inl(1537): error C2039: 'm': is not a member of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8math.h(181): note: see declaration of 'D3DXMATRIX'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(81): error C2061: syntax error: identifier 'LPDIRECT3DDEVICE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(107): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(107): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(114): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(114): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(162): error C2061: syntax error: identifier 'LPDIRECT3DDEVICE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(166): error C2061: syntax error: identifier 'LPDIRECT3DTEXTURE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(171): error C2061: syntax error: identifier 'LPDIRECT3DTEXTURE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(186): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(186): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(209): error C3646: 'Format': unknown override specifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(209): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(211): error C3646: 'DepthStencilFormat': unknown override specifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(211): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(233): error C2061: syntax error: identifier 'LPDIRECT3DDEVICE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(236): error C2061: syntax error: identifier 'LPDIRECT3DSURFACE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(247): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(247): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(269): error C3646: 'Format': unknown override specifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(269): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(271): error C3646: 'DepthStencilFormat': unknown override specifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(271): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(291): error C2061: syntax error: identifier 'LPDIRECT3DDEVICE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(295): error C2061: syntax error: identifier 'LPDIRECT3DCUBETEXTURE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(298): error C2061: syntax error: identifier 'LPDIRECT3DTEXTURE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(301): error C2061: syntax error: identifier 'LPDIRECT3DTEXTURE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(305): error C2061: syntax error: identifier 'LPDIRECT3DTEXTURE8'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(308): error C2061: syntax error: identifier 'D3DCUBEMAP_FACES'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(319): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8core.h(319): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(99): error C3646: 'Format': unknown override specifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(99): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(155): error C2065: 'LPDIRECT3DSURFACE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(155): error C2146: syntax error: missing ')' before identifier 'pDestSurface'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(166): error C2065: 'LPDIRECT3DSURFACE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(166): error C2146: syntax error: missing ')' before identifier 'pDestSurface'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(184): error C2065: 'LPDIRECT3DSURFACE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(184): error C2146: syntax error: missing ')' before identifier 'pDestSurface'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(196): error C2065: 'LPDIRECT3DSURFACE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(196): error C2146: syntax error: missing ')' before identifier 'pDestSurface'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(216): error C2065: 'LPDIRECT3DSURFACE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(216): error C2146: syntax error: missing ')' before identifier 'pDestSurface'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(258): error C2065: 'LPDIRECT3DSURFACE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(258): error C2146: syntax error: missing ')' before identifier 'pDestSurface'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(303): error C2065: 'LPDIRECT3DSURFACE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(303): error C2146: syntax error: missing ')' before identifier 'pDestSurface'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(352): error C2065: 'LPDIRECT3DVOLUME8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(352): error C2146: syntax error: missing ')' before identifier 'pDestVolume'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(400): error C2065: 'LPDIRECT3DVOLUME8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(400): error C2146: syntax error: missing ')' before identifier 'pDestVolume'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(447): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(447): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(484): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(484): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(551): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(551): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(557): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(557): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(570): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(570): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(577): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(577): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(591): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(591): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(608): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(608): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(632): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(632): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(650): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(650): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(675): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(675): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(683): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(683): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(720): error C2065: 'LPDIRECT3DTEXTURE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(720): error C2146: syntax error: missing ')' before identifier 'pTexture'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(762): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(762): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(796): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(796): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(851): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(851): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(857): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(857): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(870): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(870): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(886): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(886): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(909): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(909): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(917): error C2065: 'LPDIRECT3DDEVICE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(917): error C2146: syntax error: missing ')' before identifier 'pDevice'
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(952): error C2065: 'LPDIRECT3DCUBETEXTURE8': undeclared identifier
+1>c:\users\hot3dx-home\documents\visual studio 2015\projects\maker2015old\dxsdk8\include\d3dx8tex.h(952): fatal error C1003: error count exceeds 100; stopping compilation
+1>CameraMoveRotationVars.cpp
+1>ClipTexture.cpp
+1>color.cpp
+1>CopyPosRotScaleCtrl.cpp
+1>cubedx.cpp
+1>D3DXFile.cpp
+1>data3d.cpp
+1>Geometry.cpp
+1>grid.cpp
+1>hdxpaletteio.cpp
+1>hobfileio.cpp
+1>hobread.cpp
+1>hobwrite.cpp
+1>keytoheaven.cpp
+1>MaterialDlg.cpp
+1>MaterialDlgHelp.cpp
+1>Generating Code...
+1>Compiling...
+1>PicHelpDlg.cpp
+1>RotoDraw3D.cpp
+1>RotoDraw3DDlg.cpp
+1>RotoSplash.cpp
+1>sceneobjects.cpp
+1>scroll.cpp
+1>SetObjectSizeDlg.cpp
+1>Tetra.cpp
+1>Generating Code...
+1>Done building project "RotoDraw3D.vcxproj" -- FAILED.
+========== Rebuild All: 0 succeeded, 1 failed, 0 skipped ==========

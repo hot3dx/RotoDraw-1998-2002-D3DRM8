@@ -1,0 +1,21 @@
+Palette
+
+	The palette supports up to 300 materials in any given file.
+	With Rotodraw, you should create palette files with only one
+		 or two materials as Rotodraw only uses up to the 
+		first two colors.
+
+Create
+	1) Press the "Create" button 
+	2) Type in a name for the palette
+	3) Press the "Add"
+	4) Select the Color and Material values
+	5) Press the "Set" button
+	6) Repeat "Add", adjust propeties, "Set" for each Material
+	7) Press "Save" button to save the palette
+	8) Press "OK" button to load the palette int RotoDraw3D
+
+Load
+	1) Press "Open Palette" Button 
+	2) Choose a palette you have already created
+	3) Press "Ok" button to load the palette into RotoDraw3D   
