@@ -1,3 +1,14 @@
+This was posted because another programmer claims to come up with RotoDraw 
+There is a previous version to this one written in 1998 in MFC C/C++
+
+The copyright thief is https://kandi.openweaver.com
+
+There is another version 0f RotoDraw written in 1997 in Visual J++
+
+Both versions of RotoDraw along with numerous other programs written at the same time
+have all code the operational, original computers along with versions of visual studio 
+and operating systems pertinent to those time periods
+
 ========================================================================
        MICROSOFT FOUNDATION CLASS LIBRARY : RotoDraw3D
 ========================================================================
